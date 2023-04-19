@@ -1,0 +1,16 @@
+import { Html, Head, Main, NextScript } from 'next/document'
+
+export default function Document() {
+	return (
+		<Html
+			lang="en"
+			className="scrollbar-thin scrollbar-thumb-neutral-700 scroll-smooth"
+		>
+			<Head />
+			<body>
+				<Main />
+				<NextScript />
+			</body>
+		</Html>
+	)
+}

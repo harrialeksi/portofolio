@@ -1,0 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Sen:wght@700&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-main-dark text-zinc-300 text-lg;
+	scroll-behavior: smooth;
+}
+.grid-about {
+	grid-template-columns: auto 320px;
+}
+.thin-text {
+	@apply font-thin uppercase tracking-[.2rem] text-zinc-400;
+}
